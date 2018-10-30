@@ -1,0 +1,29 @@
+{
+  "name": "Dreamie",
+  "homepage": "Pending",
+  "authors": [
+    "chungnq253@gmail.com"
+  ],
+  "description": "",
+  "main": [
+    
+  ],
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "license": "",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "font-awesome": "^5.4.0"
+  }
+}
