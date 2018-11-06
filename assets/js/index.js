@@ -4,7 +4,7 @@ $('.slider-carousel').owlCarousel({
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dots: true,
-    nav: false,
+    nav: true,
     navText: ["<i class='fa fa-long-arrow-left' aria-hidden='true'></i>","<i class='fa fa-long-arrow-right' aria-hidden='true'></i>" ] ,
     autoplaySpeed: 1000,
     responsive: {
@@ -20,10 +20,56 @@ $('.slider-carousel').owlCarousel({
     }
 });
 
+$('.seller-carousel').owlCarousel({
+    loop:true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: true,
+    nav: true,
+    margin: 30,
+    navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right' aria-hidden='true'></i>" ] ,
+    autoplaySpeed: 1000,
+    responsive: {
+        0: {
+            items:1
+        },
+        600: {
+            items:2
+        },
+        1000: {
+            items:4
+        }
+    }
+});
+
+$('.partner-carousel').owlCarousel({
+    loop:true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: false,
+    margin: 30,
+    autoWidth: true,
+    autoplaySpeed: 1000,
+    responsive: {
+        0: {
+            items:1
+        },
+        600: {
+            items:2
+        },
+        1000: {
+            items:4
+        }
+    }
+});
+
 $('document').ready(function() {
     var url = window.location.href; 
     $(".main-menu a").each(function() {
-        if(url == (this.href)) { 
+        if (url == (this.href)) { 
             $(this).closest("li a").addClass("active");
         }
     });
@@ -43,5 +89,22 @@ $('document').ready(function() {
     $('.nav li i').click(function() {
         $('.nav li ul').css('position','relative').css('display','block')
     });
+
+    $('.nav').mouseleave(function(){
+        $('.nav li ul').css('position','absolute').css('display','none')
+    });
+
+    $(window).scroll(function() { 
+        if ($(this).scrollTop() > 200) { 
+            $('.menu').css('background','rgba(0, 0, 0, 0.8)'); 
+            $('.menu').css('border-bottom','1px solid #383838'); 
+            $('.menu').css('right','15px');            
+        } else { 
+            $('.menu').css('background','none'); 
+            $('.menu').css('border-bottom','0'); 
+        } 
+    }); 
+
+    
 });
 
