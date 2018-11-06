@@ -507,7 +507,7 @@ $main-color: #e6b31e;
 
 .title-cate {
     h1 {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         text-align: center;
 
         a {
@@ -522,7 +522,6 @@ $main-color: #e6b31e;
 .box-product {
     border: 1px solid #383838;
     padding: 10px;
-    margin: 10px 0;
 
     &-img {
         position: relative;
@@ -570,7 +569,7 @@ $main-color: #e6b31e;
                         height: 30px;
                         line-height: 30px;
                         padding: 0 10px;
-                        width:100px;
+                        width: 100px;
                         text-align: center;
                         transition: .5s;
                         opacity: 0;
@@ -740,6 +739,65 @@ $main-color: #e6b31e;
 .partner {
     background: #383838;
     padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.product-home {
+    margin-bottom: 40px;
+
+    .nav-tabs {
+        border: 0;
+
+        .nav-item {
+            .nav-link {
+                margin-bottom: 10px;
+                background: #383838;
+                width: 130px;
+                height: 130px;
+                position: relative;
+                transition: .5s;
+                border: 0;
+
+                h5 {
+                    color: $main-color;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                }
+
+                &.active {
+                    background: $main-color;
+                    border: 0;
+                    
+                    h5 {
+                        color: black;
+                    }
+                }
+
+                img {
+                    width: 80px!important;
+                    line-height: 100px;
+                }
+
+                &:hover {
+                    background: $main-color;
+                    border: 0;
+                    
+                    h5 {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    
+    .box-product {
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -828,7 +886,19 @@ $main-color: #e6b31e;
 }
 
 @media (max-width:992px) {
-    
+    .nav-tabs {
+        margin-bottom: 30px;
+
+        .nav-item {
+            width:33%;
+
+            .nav-link {
+                display: inline-block!important;
+                width: 99%!important;
+                margin: 1%!important;
+            }
+        }
+    }
 }
 
 @media (max-width:767px) {

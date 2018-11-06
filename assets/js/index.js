@@ -50,18 +50,18 @@ $('.partner-carousel').owlCarousel({
     autoplayHoverPause: true,
     dots: false,
     nav: false,
-    margin: 30,
+    margin: 50,
     autoWidth: true,
     autoplaySpeed: 1000,
     responsive: {
         0: {
-            items:1
-        },
-        600: {
             items:2
         },
-        1000: {
+        600: {
             items:4
+        },
+        1000: {
+            items:6
         }
     }
 });
@@ -86,13 +86,15 @@ $('document').ready(function() {
         $('.nav').css('transform','translateX(-150%)');
     });
 
-    $('.nav li i').click(function() {
-        $('.nav li ul').css('position','relative').css('display','block')
+    $('.menu .nav li i').click(function() {
+        $('.menu .nav li ul').css('position','relative').css('display','block')
     });
-
-    $('.nav').mouseleave(function(){
-        $('.nav li ul').css('position','absolute').css('display','none')
-    });
+    var ww = document.body.clientWidth;
+    if (ww < 1200) {
+        $('.menu .nav').mouseleave(function(){
+            $('.menu .nav li ul').css('position','absolute').css('display','none')
+        });
+    }
 
     $(window).scroll(function() { 
         if ($(this).scrollTop() > 200) { 
@@ -105,6 +107,5 @@ $('document').ready(function() {
         } 
     }); 
 
-    
 });
 
