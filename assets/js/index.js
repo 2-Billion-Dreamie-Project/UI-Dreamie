@@ -76,14 +76,14 @@ $('document').ready(function() {
 
     $('.toggleMenu').click(function() {
         $(this).css('display','none');
-        $('.nav').css('transform','translateX(0)');
+        $('.menu .nav').css('transform','translateX(0)');
         $('.menu-close').css('display','block');
     });
 
     $('.menu-close').click(function() {
         $(this).css('display','none');
         $('.toggleMenu').css('display','block');
-        $('.nav').css('transform','translateX(-150%)');
+        $('.menu .nav').css('transform','translateX(-150%)');
     });
 
     $('.menu .nav li i').click(function() {
