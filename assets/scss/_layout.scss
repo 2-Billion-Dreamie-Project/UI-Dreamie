@@ -89,6 +89,10 @@ $main-color: #e6b31e;
 
 }
 
+article {
+    padding-top: 100px;
+}
+
 .toggleMenu , .menu-close {
     display: none;
     background:white;
@@ -154,6 +158,10 @@ $main-color: #e6b31e;
                     margin-top:25px;
                     transform: translateY(20%) skew(5deg);
                     transition-delay: .1s;
+
+                    li a {
+                        color: white;
+                    }
                 }
 
                 i {
@@ -179,6 +187,7 @@ $main-color: #e6b31e;
                     li a {
                         border: none;
                         transition: none;
+                        color: white;
                     }
                 }
 
@@ -202,6 +211,7 @@ $main-color: #e6b31e;
                     padding: 15px 20px;
                     position: relative;
                     border: none;
+                    color: white;
 
                     &:hover {
                         color: black;
@@ -260,6 +270,7 @@ $main-color: #e6b31e;
                 color:white;
                 border-radius: 30px;
                 border: 1px solid #383838;
+                outline: none;
             }
 
             button {
@@ -356,6 +367,7 @@ $main-color: #e6b31e;
 
 .slider {
     position: relative;
+    margin-top: -100px;
 
     &-text {
         position: absolute;
@@ -1310,6 +1322,25 @@ $main-color: #e6b31e;
         border-top: 1px solid #383838;
     }
 }
+
+.breadcrumb {
+    background: #111111;
+    padding-bottom: 6px;
+
+    li:hover {
+        color: $main-color;
+    }
+    
+    .active {
+        color: $main-color;
+    }
+
+    ol {
+        margin-left: -15px;
+    }
+}
+
+
 
 
 

@@ -79,6 +79,7 @@ $('document').ready(function() {
     $(".main-menu a").each(function() {
         if (url == (this.href)) { 
             $(this).closest("li a").addClass("active");
+            $(this).closest("li li a").removeClass("active");
         }
     });
 
@@ -110,7 +111,7 @@ $('document').ready(function() {
     }
 
     $(window).scroll(function() { 
-        if ($(this).scrollTop() > 200) { 
+        if ($(this).scrollTop() > 20) { 
             $('.menu').css('background','rgba(0, 0, 0, 0.8)'); 
             $('.menu').css('border-bottom','1px solid #383838'); 
             $('.menu').css('right','15px');            
@@ -128,10 +129,16 @@ $('document').ready(function() {
             $('#goTop').fadeOut(); 
         } 
     }); 
+
     $('#goTop').click(function(){ 
         $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
+
+    $('.list-cate-title').on('click', function() {
+        $('.list-cate-title').removeClass('active');
+        $(this).addClass('active');
+    });
 
 });
 
