@@ -90,10 +90,15 @@ $('document').ready(function() {
         $('.menu .nav li ul').css('position','relative').css('display','block')
     });
     var ww = document.body.clientWidth;
+
     if (ww < 1200) {
         $('.menu .nav').mouseleave(function(){
             $('.menu .nav li ul').css('position','absolute').css('display','none')
         });
+    }
+
+    if (ww < 992) {
+        $('.footer-bottom .collapse').removeClass('show');
     }
 
     $(window).scroll(function() { 
