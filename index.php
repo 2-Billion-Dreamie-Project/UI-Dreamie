@@ -548,7 +548,7 @@
                         <div class="tab-content wow fadeInRightBig">
                             <div class="tab-pane fade show active" id="mouse" role="tabpanel" aria-labelledby="mouse-tab">
                                 <div class="row">
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -580,7 +580,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -612,7 +612,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -644,7 +644,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -676,7 +676,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -708,7 +708,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -744,7 +744,7 @@
 
                             <div class="tab-pane fade" id="keyboard" role="tabpanel" aria-labelledby="keyboard-tab">
                                 <div class="row">
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">
@@ -776,7 +776,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
                                         <div class="box-product">
                                             <div class="box-product-img">
                                                 <div class="custom-product">

@@ -3,6 +3,7 @@ $main-color: #e6b31e;
 
 .product-page {
     margin-top: 50px;
+    margin-bottom: 20px;
     
     &-left {
         color: #959595;
@@ -19,7 +20,6 @@ $main-color: #e6b31e;
                         font-weight: bold;
                         text-transform: uppercase;
                         border-bottom: 2px solid $main-color;
-                        letter-spacing: .15em;
                         color: white;
 
                         &:hover {
@@ -121,8 +121,159 @@ $main-color: #e6b31e;
                     &:hover {
                         background: $main-color;
                     }
+
+                }
+            }
+
+            .green , .blue , .red , .yellow , .black {
+                width: 25px;
+                height: 25px;
+                border-radius: 3px;
+                margin-right: 5px;
+                display: inline-block;
+                cursor: pointer;
+                transition: .5s;
+
+                &:hover {
+                    filter: brightness(50%);
+                }
+            }
+
+            .green {
+                background: green;
+            }
+
+            .blue {
+                background: blue;
+            }
+
+            .red {
+                background: red;
+            }
+
+            .yellow {
+                background: yellow;
+            }
+
+            .black {
+                background: black;
+            }
+
+            .status-product {
+                ul {
+                    li {
+                        padding-bottom: 15px;
+                        margin-bottom: 15px;
+                        border-bottom: 1px solid #383838;
+
+                        input {
+                            margin-right: 10px;
+
+                            &:checked {
+                                background-color: $main-color;
+                            }
+                        }
+                    }
                 }
             }
         }
+    }
+    
+    .main-product {
+        color: #cccccc;
+
+        &-title h4 {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        &-top {
+            margin-bottom: 30px;
+        }
+
+        &-view {
+            i {
+                width: 40px;
+                height: 40px;
+                border: 1px solid #959595;
+                text-align: center;
+                line-height: 40px;
+                margin-right: 5px;
+                border-radius: 3px;
+                transition: .5s;
+
+                &:hover {
+                    background: $main-color;
+                    border-color: $main-color;
+                    color: black;
+                }
+            }
+
+            .view-product.active i {
+                background: $main-color;
+                border-color: $main-color;
+                color: black;
+            }
+        }
+
+        &-sort {
+            select {
+                width: 200px;
+                height: 40px;
+                padding-left: 10px;
+                font-size: 14px;
+                display: inline-block;
+                margin-left: 10px;
+                border-radius: 3px;
+                background: none;
+                color: #959595;
+                border-color: #959595;
+                outline: none!important;
+
+                option {
+                    background: #464646;
+                    color: #cccccc;
+                }
+            }
+        }
+
+        .box-product {
+            margin-bottom: 30px;
+        }
+
+        .pagination {
+            margin-bottom: 30px;
+            .page-link {
+                background: none;
+                margin-left: 5px;
+                border-color: #383838;
+                color: #cccccc;
+                border-radius: 3px;
+                transition: .5s;
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+                text-align: center;
+                line-height: 20px;
+                font-weight: bold;
+
+                &:hover , &.active {
+                    background: $main-color;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (max-width:992px) {
+    .product-page {
+        margin-top: 30px!important;
     }
 }
