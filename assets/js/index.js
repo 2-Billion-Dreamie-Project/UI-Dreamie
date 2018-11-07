@@ -66,6 +66,14 @@ $('.partner-carousel').owlCarousel({
     }
 });
 
+wow = new WOW(
+    {
+        mobile: false,
+    }
+  )
+wow.init();
+
+
 $('document').ready(function() {
     var url = window.location.href; 
     $(".main-menu a").each(function() {
@@ -110,6 +118,19 @@ $('document').ready(function() {
             $('.menu').css('background','none'); 
             $('.menu').css('border-bottom','0'); 
         } 
+    }); 
+
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 400) { 
+            $('#goTop').fadeIn(); 
+            
+        } else { 
+            $('#goTop').fadeOut(); 
+        } 
+    }); 
+    $('#goTop').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
     }); 
 
 });
