@@ -102,6 +102,53 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="product-detail-2">
+                                <div class="product-detail-2-title">
+                                    <ul class="nav nav-tabs justify-content-center" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="desc-1-tab" data-toggle="tab" href="#desc-1" role="tab" aria-controls="desc-1" aria-selected="true">
+                                                Chi tiết sản phẩm
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="desc-2-tab" data-toggle="tab" href="#desc-2" role="tab" aria-controls="desc-2" aria-selected="false">
+                                                Thông tin khác
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="comment-tab" data-toggle="tab" href="#comment" role="tab" aria-controls="comment" aria-selected="false">
+                                                Đánh giá (<span>69</span>)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="desc-1" role="tabpanel" aria-labelledby="desc-1-tab">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="desc-2" role="tabpanel" aria-labelledby="desc-2-tab">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laborum tempora iusto odio magnam optio impedit esse aperiam, reiciendis provident quas veritatis libero blanditiis minus alias illo, temporibus ut.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolorem et, minus inventore laborum! Dolore, asperiores. Inventore, iste voluptatem quaerat repellendus illum doloribus deserunt ab totam omnis nostrum perspiciatis.</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab">
+                                        <p><span>Kemmie:</span> Đẹp vl anh ơi ship em ngay 1 cái</p>
+                                        <p><span>Chung 36:</span> Ship em chục cái luôn nhé anh ơi !</p>
+                                        <p><span>Kemmie:</span> Ship em trước anh ơi em comment trước nè</p>
+                                        <p><span>Chung 36:</span> Bố mày mua nhiều hơn bố mày được ship trước ok?</p>
+                                        <p><span>Kemmie:</span> OK mày win</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -285,6 +332,276 @@
                                     </div>
                                 </div>
                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="similar">
+                            <div class="similar-title text-center">
+                                <h1>
+                                    <a>sản phẩm liên quan</a>
+                                </h1>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="box-product">
+                                        <div class="box-product-img">
+                                            <div class="custom-product">
+                                                <a class="custom-quickview" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                <a class="custom-wishlist" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                                <a class="custom-cart" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                            </div>
+            
+                                            <a href="product-detail.php">
+                                                <img src="public/img/product-1.png" alt="">
+                                            </a>
+                                        </div>
+            
+                                        <div class="box-product-detail text-center">
+                                            <h5>
+                                                <a href="product-detail.php">Logitech G502 Proteus Spectrum</a>
+                                            </h5>
+            
+                                            <h4 class="price-product">699.000 đ <span class="price-default">700.000 đ</span></h4>
+            
+                                            <p>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

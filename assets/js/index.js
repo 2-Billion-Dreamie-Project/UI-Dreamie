@@ -79,10 +79,10 @@ $('.xzoom-carousel').owlCarousel({
     autoplaySpeed: 1000,
     responsive: {
         0: {
-            items:2
+            items:4
         },
         600: {
-            items:3
+            items:4
         },
         1000: {
             items:4

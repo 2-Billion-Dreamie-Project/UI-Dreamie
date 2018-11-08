@@ -521,7 +521,6 @@ $main-color: #e6b31e;
                     }
 
                     button {
-                        border: 0;
                         background: $main-color;
                         color: black;
                         height: 40px;
@@ -529,16 +528,93 @@ $main-color: #e6b31e;
                         text-transform: uppercase;
                         font-weight: bold;
                         border-radius: 3px;
+                        cursor: pointer;
+                        transition: .5s;
+                        border: 2px solid $main-color;
+
+                        &:hover , &:focus {
+                            background: none;
+                            color: $main-color;
+                            box-shadow: none;
+                            outline: none;
+                        }
                         
                         &.quantity-wishlist {
                             width: 40px;
                             margin-left: 7px;
                             color: white;
                             background: black;
+                            border: none;
+                            margin-left: 15px;
+
+                            &:hover {
+                                background: $main-color;
+                                color: black;
+                            }
                         }
                     }
                 }
             }
+        }
+
+        &-2 {
+            &-title {
+                .nav-tabs {
+                    border-bottom: 2px solid #383838;
+                    margin-bottom: 30px;
+
+                    .nav-item {
+                        margin-bottom: -2px;
+
+                        .nav-link {
+                            padding-bottom: 11px;
+                            border: none;
+                            border-bottom: 2px solid #383838;
+                            transition: .5s;
+                            font-weight: bold;
+    
+                            &.active , &:hover {
+                                background: none;
+                                border: none;
+                                border-bottom: 2px solid $main-color;
+                                padding-bottom: 11px;
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tab-content {
+                margin-bottom: 30px;
+                color: #cccccc;
+
+                p span {
+                    color: $main-color
+                }
+            }
+        }
+    }
+
+    .similar {
+        padding-top: 50px;
+        border-top: 2px solid #959595;
+
+        &-title {
+            h1 {
+                margin-bottom: 40px;
+
+                a {
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid $main-color;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .box-product {
+            margin-bottom: 30px!important;
         }
     }
 }
@@ -564,5 +640,35 @@ $main-color: #e6b31e;
 @media (max-width:992px) {
     .product-page {
         margin-top: 30px!important;
+    }
+}
+
+@media (max-width:767px) {
+    .product-page-left .cate-left .box-product-left-img {
+        margin-bottom: 20px;
+    }
+    .product-page .product-detail-1-detail .quantity button.quantity-wishlist {
+        margin-left: 5px;
+    }
+
+    .product-page .product-detail-2-title .nav-tabs {
+        overflow-x: scroll;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+
+        .nav-link {
+            padding: 10px;
+        }
+    }
+
+    .similar {
+        padding-top: 20px!important;
+    }
+}
+
+@media (max-width:351px) {
+    .product-page .product-detail-1-detail .quantity button {
+        padding: 0 8px;
+        font-size: 11px;
     }
 }
