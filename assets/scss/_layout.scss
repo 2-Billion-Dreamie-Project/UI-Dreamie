@@ -940,9 +940,20 @@ article {
             a {
                 font-weight: bold;
                 transition: .5s;
+                animation: productHot 1s linear infinite;
 
                 &:hover {
                     color: $main-color
+                }
+            }
+
+            @keyframes productHot {
+                0% {
+                    color: white;
+                } 50% {
+                    color: $main-color;
+                } 100% {
+                    color: white;
                 }
             }
         }

@@ -26,6 +26,7 @@
     "font-awesome": "4.7.0",
     "fancybox": "^3.5.2",
     "wow": "wowjs#^1.1.2",
-    "animate.css": "^3.7.0"
+    "animate.css": "^3.7.0",
+    "xzoom": "^1.0.14"
   }
 }
