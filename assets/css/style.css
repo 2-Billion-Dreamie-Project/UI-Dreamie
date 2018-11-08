@@ -911,17 +911,17 @@ article {
   background: #e6b31e;
 }
 
-.news-home {
+.news-home, .news-page {
   margin-bottom: 50px;
 }
-.news-home .box-news-home {
+.news-home .box-news-home, .news-page .box-news-home {
   background: #383838;
   margin-bottom: 30px;
 }
-.news-home .box-news-home-img {
+.news-home .box-news-home-img, .news-page .box-news-home-img {
   position: relative;
 }
-.news-home .box-news-home-img .custom-news {
+.news-home .box-news-home-img .custom-news, .news-page .box-news-home-img .custom-news {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -930,57 +930,57 @@ article {
   transition: 0.5s;
   opacity: 0;
 }
-.news-home .box-news-home-img .custom-news i {
+.news-home .box-news-home-img .custom-news i, .news-page .box-news-home-img .custom-news i {
   padding: 15px;
   border: 2px solid white;
   transition: 0.5s;
 }
-.news-home .box-news-home-img .custom-news i:hover {
+.news-home .box-news-home-img .custom-news i:hover, .news-page .box-news-home-img .custom-news i:hover {
   color: black;
   border-color: #e6b31e;
   background: #e6b31e;
 }
-.news-home .box-news-home-img img {
+.news-home .box-news-home-img img, .news-page .box-news-home-img img {
   transition: 0.5s;
 }
-.news-home .box-news-home-img:hover img {
+.news-home .box-news-home-img:hover img, .news-page .box-news-home-img:hover img {
   filter: brightness(70%);
 }
-.news-home .box-news-home-img:hover .custom-news {
+.news-home .box-news-home-img:hover .custom-news, .news-page .box-news-home-img:hover .custom-news {
   opacity: 1;
 }
-.news-home .box-news-home-date {
+.news-home .box-news-home-date, .news-page .box-news-home-date {
   background: #e6b31e;
   margin-left: -30px;
   height: 100%;
   color: black;
   padding: 20px 0;
 }
-.news-home .box-news-home-date h1 {
+.news-home .box-news-home-date h1, .news-page .box-news-home-date h1 {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.news-home .box-news-home-detail h3 {
+.news-home .box-news-home-detail h3, .news-page .box-news-home-detail h3 {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.news-home .box-news-home-detail h3 a {
+.news-home .box-news-home-detail h3 a, .news-page .box-news-home-detail h3 a {
   font-weight: bold;
   transition: 0.5s;
 }
-.news-home .box-news-home-detail h3 a:hover {
+.news-home .box-news-home-detail h3 a:hover, .news-page .box-news-home-detail h3 a:hover {
   color: #e6b31e;
 }
-.news-home .box-news-home-detail h5 {
+.news-home .box-news-home-detail h5, .news-page .box-news-home-detail h5 {
   color: #959595;
   line-height: 1.6;
 }
-.news-home .box-news-home-btn {
+.news-home .box-news-home-btn, .news-page .box-news-home-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
-.news-home .box-news-home-btn a {
+.news-home .box-news-home-btn a, .news-page .box-news-home-btn a {
   width: 130px;
   text-align: center;
   padding: 10px 0;
@@ -994,41 +994,20 @@ article {
   transition: 0.5s;
   border: 2px solid #e6b31e;
 }
-.news-home .box-news-home-btn a:hover {
+.news-home .box-news-home-btn a:hover, .news-page .box-news-home-btn a:hover {
   color: #e6b31e;
   background: none;
 }
-.news-home .box-news-home-btn a:nth-child(2) {
+.news-home .box-news-home-btn a:nth-child(2), .news-page .box-news-home-btn a:nth-child(2) {
   background: #050505;
   color: #959595;
   border-color: #050505;
   cursor: pointer;
 }
-.news-home .box-news-home-btn a:nth-child(2):hover {
+.news-home .box-news-home-btn a:nth-child(2):hover, .news-page .box-news-home-btn a:nth-child(2):hover {
   color: #e6b31e;
   background: none;
   border-color: #e6b31e;
-}
-.news-home .box-news-home-btn .link-share {
-  position: absolute;
-  margin-top: -7px;
-  opacity: 0;
-  visibility: hidden;
-}
-.news-home .box-news-home-btn .link-share a {
-  width: 40px;
-  height: 40px;
-  background: #050505;
-  color: #959595;
-  display: inline-block;
-  border: none;
-  line-height: 20px;
-  transition: 0.5s;
-  transform: rotate(90deg);
-}
-.news-home .box-news-home-btn .link-share a:hover {
-  background: #e6b31e;
-  color: black;
 }
 
 .footer-top {
@@ -1234,29 +1213,29 @@ article {
     transform: none !important;
   }
 
-  .news-home .box-news-home-img .custom-news {
+  .news-home .box-news-home-img .custom-news, .news-page .box-news-home-img .custom-news {
     opacity: 1;
   }
-  .news-home .box-news-home-date {
+  .news-home .box-news-home-date, .news-page .box-news-home-date {
     padding: 10px 0;
   }
-  .news-home .box-news-home-date h1, .news-home .box-news-home-date i {
+  .news-home .box-news-home-date h1, .news-home .box-news-home-date i, .news-page .box-news-home-date h1, .news-page .box-news-home-date i {
     margin-bottom: 0;
   }
-  .news-home .box-news-home-btn {
+  .news-home .box-news-home-btn, .news-page .box-news-home-btn {
     position: relative;
     text-align: center;
     margin-bottom: 20px;
   }
-  .news-home .box-news-home-btn a {
+  .news-home .box-news-home-btn a, .news-page .box-news-home-btn a {
     font-size: 14px;
     width: 100px;
     display: inline-block;
   }
-  .news-home .box-news-home-detail {
+  .news-home .box-news-home-detail, .news-page .box-news-home-detail {
     margin: 10px;
   }
-  .news-home .box-news-home-detail h3 {
+  .news-home .box-news-home-detail h3, .news-page .box-news-home-detail h3 {
     margin: 10px 0;
   }
 
@@ -1284,21 +1263,21 @@ article {
     margin-bottom: 10px;
   }
 
-  .news-home .box-news-home-img .custom-news {
+  .news-home .box-news-home-img .custom-news, .news-page .box-news-home-img .custom-news {
     opacity: 1;
   }
-  .news-home .box-news-home-date {
+  .news-home .box-news-home-date, .news-page .box-news-home-date {
     margin-left: 0;
   }
-  .news-home .box-news-home-date h1, .news-home .box-news-home-date i {
+  .news-home .box-news-home-date h1, .news-home .box-news-home-date i, .news-page .box-news-home-date h1, .news-page .box-news-home-date i {
     display: inline-block;
   }
-  .news-home .box-news-home-btn {
+  .news-home .box-news-home-btn, .news-page .box-news-home-btn {
     position: relative;
     text-align: center;
     margin-bottom: 20px;
   }
-  .news-home .box-news-home-btn a {
+  .news-home .box-news-home-btn a, .news-page .box-news-home-btn a {
     font-size: 14px;
     width: 100px;
     display: inline-block;
@@ -1671,6 +1650,196 @@ article {
   .product-page {
     margin-top: 30px !important;
   }
+}
+.news-page {
+  margin-top: 30px;
+}
+.news-page .pagination {
+  margin-bottom: 30px;
+}
+.news-page .pagination .page-link {
+  background: none;
+  margin-left: 5px;
+  border-color: #383838;
+  color: #cccccc;
+  border-radius: 3px;
+  transition: 0.5s;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+}
+.news-page .pagination .page-link:hover, .news-page .pagination .page-link.active {
+  background: #e6b31e;
+  color: black;
+}
+
+.contact-page {
+  margin-top: 30px;
+  color: #cccccc;
+}
+.contact-page .title-page h1 {
+  margin-bottom: 40px;
+}
+.contact-page .title-page h1 a {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6b31e;
+  font-weight: bold;
+  color: white;
+}
+.contact-page .title-page h1 a:hover {
+  color: white;
+}
+.contact-page .box-contact {
+  margin-bottom: 50px;
+}
+.contact-page .box-contact .form-group input {
+  height: 50px;
+  border-color: #383838;
+  background: none;
+  color: #cccccc;
+  outline-color: #e6b31e;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.contact-page .box-contact .form-group input:focus, .contact-page .box-contact .form-group input:hover {
+  border-color: #e6b31e;
+  box-shadow: none;
+}
+.contact-page .box-contact .form-group textarea {
+  height: 150px;
+  border-color: #383838;
+  background: none;
+  color: #cccccc;
+}
+.contact-page .box-contact .form-group textarea:focus, .contact-page .box-contact .form-group textarea:hover {
+  border-color: #e6b31e;
+  box-shadow: none;
+}
+.contact-page .box-contact button {
+  border: 0;
+  background: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.contact-page .box-contact button a {
+  color: #e6b31e;
+  border: 2px solid #e6b31e;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 500ms;
+  position: relative;
+  border-radius: 3px;
+}
+.contact-page .box-contact button a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.contact-page .box-contact button a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e6b31e;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+}
+.contact-page .box-contact button a:hover::after {
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scale(1);
+}
+.contact-page .box-contact button a:hover {
+  color: black;
+  border-color: #e6b31e;
+}
+.contact-page .contact-banner {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.contact-page .contact-banner img {
+  transition: 1s;
+}
+.contact-page .contact-banner:hover img {
+  transform: scale(1.2);
+  filter: brightness(60%);
+}
+
+.aboutus-page {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #cccccc;
+}
+.aboutus-page h5, .aboutus-page p {
+  line-height: 1.7;
+}
+.aboutus-page h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.aboutus-page img {
+  margin-bottom: 30px;
+}
+.aboutus-page button {
+  border: 0;
+  background: none;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.aboutus-page button a {
+  color: #e6b31e !important;
+  border: 2px solid #e6b31e;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 500ms;
+  position: relative;
+}
+.aboutus-page button a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.aboutus-page button a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e6b31e;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+}
+.aboutus-page button a:hover::after {
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scale(1);
+}
+.aboutus-page button a:hover {
+  color: black !important;
+  border-color: #e6b31e;
 }
 
 /*# sourceMappingURL=style.css.map */

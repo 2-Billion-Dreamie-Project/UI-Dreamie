@@ -1004,7 +1004,7 @@ article {
     } 
 }
 
-.news-home {
+.news-home , .news-page {
     margin-bottom: 50px;
 
     .box-news-home {
@@ -1120,29 +1120,6 @@ article {
                         color: $main-color;
                         background: none;
                         border-color: $main-color;
-                    }
-                }
-            }
-            .link-share {
-                position: absolute;
-                margin-top: -7px;
-                opacity: 0;
-                visibility: hidden;
-
-                a {
-                    width: 40px;
-                    height: 40px;
-                    background: #050505;
-                    color: #959595;
-                    display: inline-block;
-                    border: none;
-                    line-height: 20px;
-                    transition: .5s;
-                    transform: rotate(90deg);
-                    
-                    &:hover {
-                        background: $main-color;
-                        color: black;
                     }
                 }
             }
@@ -1425,7 +1402,7 @@ article {
         }
     }
 
-    .news-home {
+    .news-home , .news-page {
         .box-news-home {
 
             &-img {
@@ -1496,7 +1473,7 @@ article {
         }
     }
 
-    .news-home {
+    .news-home , .news-page{
         .box-news-home {
 
             &-img {
