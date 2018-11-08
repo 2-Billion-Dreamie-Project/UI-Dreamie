@@ -34,23 +34,23 @@
                             </div>
 
                             <div class="row main-product-top">
-                                <div class="col">
-                                    <div class="main-product-view">
-                                        <a class="view-product active" href="product.php">
+                                <div class="col d-lg-inline-block d-sm-none d-none">
+                                    <div class="main-product-view ">
+                                        <a title="Dạng lưới" class="view-product active" href="product.php">
                                             <i class="fa fa-th-large" aria-hidden="true"></i>
                                         </a>
 
-                                        <a class="view-product" href="product-2.php">
+                                        <a title="Dạng danh sách" class="view-product" href="product-2.php">
                                             <i class="fa fa-list" aria-hidden="true"></i>
                                         </a>
 
-                                        <span class="d-md-inline-block d-sm-none d-none">Lựa chọn kiểu xem</span>
+                                        <span>Lựa chọn kiểu xem</span>
                                     </div>
                                 </div>
 
                                 <div class="col text-right">
                                     <div class="main-product-sort">
-                                        <span class="d-md-inline-block d-sm-none d-none">Sắp xếp theo</span>
+                                        <span>Sắp xếp theo</span>
 
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>Mới nhất</option>
@@ -632,6 +632,12 @@
                                             </label>
                                         </li>
                                     </ul>
+                                </div>
+
+                                <div class="cate-left-btn">
+                                    <button type="reset">
+                                        <a>trở về mặc định</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
