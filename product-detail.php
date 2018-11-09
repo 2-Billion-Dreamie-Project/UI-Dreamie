@@ -45,8 +45,8 @@
                                                     </div>
 
                                                     <div class="item">
-                                                        <a href="public/img/product-1.png">
-                                                            <img class="xzoom-gallery" src="public/img/product-1.png"  xpreview="public/img/product-1.png">
+                                                        <a href="public/img/product-2.png">
+                                                            <img class="xzoom-gallery" src="public/img/product-2.png"  xpreview="public/img/product-2.png">
                                                         </a>
                                                     </div>
 
@@ -57,8 +57,8 @@
                                                     </div>
 
                                                     <div class="item">
-                                                        <a href="public/img/product-1.png">
-                                                            <img class="xzoom-gallery" src="public/img/product-1.png"  xpreview="public/img/product-1.png">
+                                                        <a href="public/img/product-2.png">
+                                                            <img class="xzoom-gallery" src="public/img/product-2.png"  xpreview="public/img/product-2.png">
                                                         </a>
                                                     </div>
 
@@ -67,7 +67,13 @@
                                                             <img class="xzoom-gallery" src="public/img/product-1.png"  xpreview="public/img/product-1.png">
                                                         </a>
                                                     </div>
-                                                    
+
+                                                    <div class="item">
+                                                        <a href="public/img/product-2.png">
+                                                            <img class="xzoom-gallery" src="public/img/product-2.png"  xpreview="public/img/product-2.png">
+                                                        </a>
+                                                    </div>
+
                                                 </div>    
                                             </div>
                                         </div>
