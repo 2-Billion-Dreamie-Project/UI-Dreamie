@@ -592,6 +592,50 @@ $main-color: #e6b31e;
                 p span {
                     color: $main-color
                 }
+
+                textarea , input {
+                    height: 40px;
+                    background: none;
+                    border: 1px solid #383838;
+                    font-size: 14px;
+                    color: #cccccc;
+                    margin-bottom: 10px;
+                    width: 100%;
+
+                    &:hover , &:focus {
+                        outline-color: $main-color;
+                        box-shadow: 0 0 0 0.1rem $main-color;
+                    }
+                }
+
+                textarea {
+                    height: 100px;
+                }
+
+                #comment button {
+                    height: 40px;
+                    padding: 0 20px;
+                    background: #383838;
+                    color: #cccccc;
+                    border: none;
+                    cursor: pointer;
+                    margin-bottom: 30px;
+                    transition: .5s;
+
+                    &:hover {
+                        background: $main-color;
+                        color: black;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .comment-box {
+                    padding-top: 15px;
+                    border-top: 1px solid #383838;
+                }
             }
         }
     }

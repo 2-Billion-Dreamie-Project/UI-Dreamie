@@ -125,10 +125,26 @@ section {
   background: #959595;
   transition: 500ms;
   z-index: 100000;
+  animation: goTop 0.1s linear infinite;
+}
+@keyframes goTop {
+  0% {
+    border-radius: 0;
+    background: #959595;
+  }
+  50% {
+    border-radius: 50%;
+    background: #e6b31e;
+  }
+  100% {
+    border-radius: 0;
+    background: #959595;
+  }
 }
 #goTop:hover {
   background-color: #e6b31e;
   color: black;
+  animation: none;
 }
 
 .no-js #loader {
@@ -309,7 +325,7 @@ article {
 }
 .menu .custom-header .card-body {
   position: absolute;
-  margin-top: 23px;
+  margin-top: 5px;
   right: 0;
 }
 .menu .custom-header .search-form {
@@ -348,6 +364,7 @@ article {
   position: absolute;
   width: 320px;
   right: 15px;
+  margin-top: 45px;
 }
 .menu .custom-header .cart-form-box-product {
   border-bottom: 1px solid #383838;
@@ -462,10 +479,15 @@ article {
 .slider .owl-theme .owl-nav button.owl-prev, .slider .owl-theme .owl-nav button.owl-next {
   position: absolute;
   top: 40%;
-  font-size: 50px;
+  font-size: 70px;
+  transition: 0.5s;
 }
 .slider .owl-theme .owl-nav button.owl-prev:hover, .slider .owl-theme .owl-nav button.owl-next:hover {
-  background: #e6b31e;
+  color: #e6b31e;
+  background: none;
+}
+.slider .owl-theme .owl-nav button.owl-prev:focus, .slider .owl-theme .owl-nav button.owl-next:focus {
+  outline: none;
 }
 .slider .owl-theme .owl-nav button.owl-prev {
   left: 3%;
@@ -621,10 +643,12 @@ article {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  transform: translateX(-20%);
 }
 .box-product-img .custom-product .custom-quickview:hover::before {
   opacity: 1;
   visibility: initial;
+  transform: translateX(0);
 }
 .box-product-img .custom-product .custom-wishlist::before {
   content: "Thêm vào yêu thích";
@@ -641,10 +665,12 @@ article {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  transform: translateX(-20%);
 }
 .box-product-img .custom-product .custom-wishlist:hover::before {
   opacity: 1;
   visibility: initial;
+  transform: translateX(0);
 }
 .box-product-img .custom-product .custom-cart::before {
   content: "Thêm vào giỏ";
@@ -661,10 +687,12 @@ article {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  transform: translateX(-20%);
 }
 .box-product-img .custom-product .custom-cart:hover::before {
   opacity: 1;
   visibility: initial;
+  transform: translateX(0);
 }
 .box-product-img:hover .custom-product {
   transform: none;
@@ -1171,6 +1199,10 @@ article {
     margin-left: 15px;
   }
 
+  #goTop {
+    animation: none;
+  }
+
   .toggleMenu, .menu-close {
     display: block;
   }
@@ -1347,6 +1379,11 @@ article {
 
   .breadcrumb {
     margin-top: 10px !important;
+  }
+
+  .menu .custom-header .cart-form {
+    right: 0px;
+    margin-top: 22px;
   }
 }
 .product-page {
@@ -1819,6 +1856,43 @@ article {
 }
 .product-page .product-detail-2 .tab-content p span {
   color: #e6b31e;
+}
+.product-page .product-detail-2 .tab-content textarea, .product-page .product-detail-2 .tab-content input {
+  height: 40px;
+  background: none;
+  border: 1px solid #383838;
+  font-size: 14px;
+  color: #cccccc;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.product-page .product-detail-2 .tab-content textarea:hover, .product-page .product-detail-2 .tab-content textarea:focus, .product-page .product-detail-2 .tab-content input:hover, .product-page .product-detail-2 .tab-content input:focus {
+  outline-color: #e6b31e;
+  box-shadow: 0 0 0 0.1rem #e6b31e;
+}
+.product-page .product-detail-2 .tab-content textarea {
+  height: 100px;
+}
+.product-page .product-detail-2 .tab-content #comment button {
+  height: 40px;
+  padding: 0 20px;
+  background: #383838;
+  color: #cccccc;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.product-page .product-detail-2 .tab-content #comment button:hover {
+  background: #e6b31e;
+  color: black;
+}
+.product-page .product-detail-2 .tab-content #comment button:focus {
+  outline: none;
+}
+.product-page .product-detail-2 .tab-content .comment-box {
+  padding-top: 15px;
+  border-top: 1px solid #383838;
 }
 .product-page .similar {
   padding-top: 50px;

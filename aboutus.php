@@ -33,7 +33,7 @@
                     <div class="col-lg-6">
                         <h1>CHÀO MỪNG BẠN ĐẾN VỚI <span style="color: #e6b31e">2 BILLION DREAMIE FUCKING PROJECT</span></h1>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolor consequatur, expedita at consequuntur cumque eum facere nam voluptas a vero perferendis, qui in quaerat? Iusto ut numquam dolorum adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti illum obcaecati! Illo aperiam iure placeat voluptatem praesentium, excepturi veritatis exercitationem magnam eum laudantium dignissimos? Assumenda in praesentium facere? Exercitationem.</h5>
-                        <button><a>mua sắm thôi nào</a></button>
+                        <button><a href="product.php">mua sắm thôi nào</a></button>
                     </div>
                 </div>
 

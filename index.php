@@ -17,11 +17,11 @@
                 <div class="item">
                     <div class="slider-text">
                         <div class="container">
-                            <h1><a>dreamie gear</a></h1>
+                            <h1 class="wow flipInX"  data-wow-delay="1s"><a>dreamie gear</a></h1>
 
-                            <p>CHUYÊN CUNG CẤP PHỤ KIỆN ĐIỆN TỬ</p>
+                            <p class="wow bounceInRight" data-wow-delay="1.5s">CHUYÊN CUNG CẤP PHỤ KIỆN ĐIỆN TỬ</p>
     
-                            <a href="product.hmtl">mua sắm ngay</a>
+                            <a class="wow jackInTheBox" data-wow-delay="2.5s" href="product.php">mua sắm ngay</a>
                         </div>
                     </div>
 
@@ -31,15 +31,15 @@
                 <div class="item">
                     <div class="slider-text">
                         <div class="container">
-                            <h1><a>dreamie gear</a></h1>
+                            <h1 class="wow flipInX"  data-wow-delay="1s"><a>dreamie gear</a></h1>
 
-                            <p>CHUYÊN CUNG CẤP PHỤ KIỆN ĐIỆN TỬ</p>
+                            <p class="wow bounceInRight" data-wow-delay="1.5s">CHUYÊN CUNG CẤP PHỤ KIỆN ĐIỆN TỬ</p>
     
-                            <a href="product.hmtl">mua sắm ngay</a>
+                            <a class="wow rotateInUpLeft" data-wow-delay="2.5s" href="product.php">mua sắm ngay</a>
                         </div>
                     </div>
 
-                    <img src="public/img/slider-2.png" alt="">
+                    <img src="public/img/slider-1.png" alt="">
                 </div>
 
             </div>

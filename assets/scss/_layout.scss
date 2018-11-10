@@ -49,12 +49,28 @@ $main-color: #e6b31e;
     background: #959595;
     transition: 500ms;
     z-index: 100000;
+    animation: goTop 0.1s linear infinite;
+
+    @keyframes goTop {
+        0% {
+            border-radius: 0;
+            background: #959595;
+        } 50% {
+            border-radius: 50%;
+            background: $main-color;
+        } 100% {
+            border-radius: 0;
+            background: #959595;
+        }
+    }
 
     &:hover {
         background-color:$main-color; 
         color:black;
+        animation: none;
     }
 }
+
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -255,7 +271,7 @@ article {
 
         .card-body {
             position: absolute;
-            margin-top:23px;
+            margin-top:5px;
             right:0;
         }
         
@@ -299,6 +315,7 @@ article {
             position: absolute;
             width: 320px;
             right:15px;
+            margin-top: 45px;
 
             &-box-product {
                 border-bottom: 1px solid #383838;
@@ -445,10 +462,16 @@ article {
         button.owl-prev , button.owl-next {
             position: absolute;
             top: 40%;
-            font-size: 50px;
+            font-size: 70px;
+            transition: .5s;
 
             &:hover {
-                background: $main-color;
+                color: $main-color;
+                background: none;
+            }
+
+            &:focus {
+                outline: none;
             }
         }
 
@@ -642,11 +665,13 @@ article {
                         transition: .5s;
                         opacity: 0;
                         visibility: hidden;
+                        transform: translateX(-20%);
                     }
 
                     &:hover::before {
                         opacity: 1;
                         visibility: initial;
+                        transform: translateX(0);
                     }
                 }
 
@@ -666,11 +691,13 @@ article {
                         transition: .5s;
                         opacity: 0;
                         visibility: hidden;
+                        transform: translateX(-20%);
                     }
 
                     &:hover::before {
                         opacity: 1;
                         visibility: initial;
+                        transform: translateX(0);
                     }
                 }
 
@@ -690,11 +717,13 @@ article {
                         transition: .5s;
                         opacity: 0;
                         visibility: hidden;
+                        transform: translateX(-20%);
                     }
 
                     &:hover::before {
                         opacity: 1;
                         visibility: initial;
+                        transform: translateX(0);
                     }
                 }
             }
@@ -1342,6 +1371,10 @@ article {
         margin-left:15px;
     }
 
+    #goTop {
+        animation: none;
+    }
+
     .toggleMenu , .menu-close {
         display: block;
     }
@@ -1578,5 +1611,10 @@ article {
 
     .breadcrumb {
         margin-top: 10px!important;
+    }
+
+    .menu .custom-header .cart-form {
+        right: 0px;
+        margin-top: 22px;
     }
 }

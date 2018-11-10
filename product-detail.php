@@ -34,7 +34,7 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="product-detail-1-img">
-                                            <img class="xzoom" src="public/img/product-1.png" xoriginal="public/img/product-1.png" />
+                                            <img class="xzoom" id="main-image" src="public/img/product-1.png" xoriginal="public/img/product-1.png" />
 
                                             <div class="xzoom-thumbs">
                                                 <div class="owl-carousel xzoom-carousel owl-theme">
@@ -147,11 +147,25 @@
                                     </div>
 
                                     <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab">
-                                        <p><span>Kemmie:</span> Đẹp vl anh ơi ship em ngay 1 cái</p>
-                                        <p><span>Chung 36:</span> Ship em chục cái luôn nhé anh ơi !</p>
-                                        <p><span>Kemmie:</span> Ship em trước anh ơi em comment trước nè</p>
-                                        <p><span>Chung 36:</span> Bố mày mua nhiều hơn bố mày được ship trước ok?</p>
-                                        <p><span>Kemmie:</span> OK mày win</a>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input class="form-control" type="text" placeholder="Nhập email hoặc tên của bạn để được đánh giá">
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <textarea class="form-control" placeholder="Nhập đánh giá . . ."></textarea>                                                
+                                            </div>
+                                        </div>
+                                        <button type="submit">
+                                            Gửi đánh giá
+                                        </button>
+                                        <div class="comment-box">
+                                            <p><span>Kemmie:</span> Đẹp vl anh ơi ship em ngay 1 cái</p>
+                                            <p><span>Chung 36:</span> Ship em chục cái luôn nhé anh ơi !</p>
+                                            <p><span>Kemmie:</span> Ship em trước anh ơi em comment trước nè</p>
+                                            <p><span>Chung 36:</span> Bố mày mua nhiều hơn bố mày được ship trước ok?</p>
+                                            <p><span>Kemmie:</span> OK mày win</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
